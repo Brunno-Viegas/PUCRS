@@ -1,0 +1,131 @@
+/* Cores e fonte do site */
+body {
+    background-color: #fffdf8;
+    color: #302821;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    color: #604226;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #3e2b19;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Cabeçalho, rodapé e menus */
+header,
+footer {
+    background-color: #f3eadb;
+    padding: 20px 15px;
+    text-align: center;
+}
+
+header {
+    border-bottom: 1px solid #d5c6b2;
+}
+
+header img {
+    margin-bottom: 12px;
+    border-radius: 6px;
+}
+
+nav ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 4px 8px;
+}
+
+header nav ul,
+footer p {
+    margin-bottom: 4px;
+}
+
+hr {
+    margin: 0;
+    border-color: #d5c6b2;
+}
+
+/* Espaçamento do conteúdo e das seções */
+main {
+    padding-top: 24px;
+    padding-bottom: 8px;
+}
+
+main section {
+    margin-bottom: 24px;
+}
+
+main section + section {
+    padding-top: 20px;
+    border-top: 1px solid #d5c6b2;
+}
+
+/* Imagens e espaçamento dos produtos */
+.catalogo article {
+    margin-top: 12px;
+}
+
+.catalogo img {
+    margin-bottom: 12px;
+    border: 1px solid #d5c6b2;
+    border-radius: 6px;
+}
+
+/* Tamanho, imagens e controles do carrossel */
+#carouselExampleControls {
+    max-width: 360px;
+    margin: 0 auto;
+}
+
+#carouselExampleControls img {
+    height: 240px;
+    object-fit: contain;
+}
+
+#carouselExampleControls .carousel-control-prev-icon,
+#carouselExampleControls .carousel-control-next-icon {
+    width: 32px;
+    height: 32px;
+    background-color: #302821;
+    background-size: 16px;
+    border-radius: 50%;
+}
+
+/* Espaçamento e bordas do formulário de agendamento */
+.formulario-agendamento {
+    margin-bottom: 24px;
+}
+
+.formulario-agendamento fieldset {
+    margin-bottom: 16px;
+    padding: 16px;
+    border: 1px solid #d5c6b2;
+}
+
+.formulario-agendamento legend {
+    width: auto;
+    padding: 0 8px;
+}
+
+.formulario-agendamento input,
+.formulario-agendamento select {
+    max-width: 100%;
+}
+
+/* Foco nos controles do carrossel e no campo de data e hora */
+#carouselExampleControls .carousel-control-prev:focus,
+#carouselExampleControls .carousel-control-next:focus,
+#agenda:focus-within {
+    outline: 2px solid #302821;
+    outline-offset: -2px;
+}
